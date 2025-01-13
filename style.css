@@ -1,0 +1,63 @@
+
+* {
+margin: 0;
+padding: 0;
+}
+/* Header */
+.header-container {
+    position: absolute;
+    width: 1600px;
+    height: 100px;
+    left: 0;
+    top: 0;
+
+}
+.header-title {    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 160px 24px 160px;
+
+}
+
+.logo {
+    position: static;
+    width: 222px;
+    height: 38px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10;
+    padding: 24px 160px 24px 160px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.sign-in-btn{
+    position: static;
+    width: 116px;
+    height: 52px;
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 48;
+padding: 15px 30px 15px 30px;
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 0px 10px;
+box-sizing: border-box;
+border: 1px solid rgb(0, 106, 80);
+border-radius: 8px;
+}
