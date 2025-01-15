@@ -14,8 +14,8 @@ body {
 
 /* Header Section styles */
 .header {
-    width: 100%;
-    max-width: 1600px;
+    
+    width: 1600px;
     padding: 24px 160px;
     display: flex;
     justify-content: space-between;
@@ -49,7 +49,8 @@ body {
 }
 
 .banner-text {
-    max-width: 50%;
+    width: 622px;
+    height: 326px;
 }
 
 .banner-title {
@@ -74,7 +75,7 @@ body {
 
 /* Vision Section styles */
 .vision-container {
-    max-width: 1280px;
+    width: 1280px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -99,14 +100,59 @@ body {
 }
 
 .card-1, .card-2, .card-3 {
-    flex: 1;
+    width: 410.67px;
+    height: 325px;
     padding: 32px;
     border-radius: 16px;
-    background: rgba(84, 144, 245, 0.2);
 }
 
 .card-title {
     font-size: 20px;
     font-weight: 700;
     margin: 12px 0;
+}
+
+
+.card-1{
+     background: rgba(84, 144, 245, 0.2);
+}
+.card-2{
+    background: rgb(198, 228, 214);
+}
+.card-3{
+    background: rgb(247, 235, 207);
+}
+
+.card-btn-1{
+    margin-top: 24px;
+    padding: 11px 20px;
+    border-radius: 8px;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    background: rgb(84, 144, 245);
+    border: none;
+}
+
+.card-btn-2{
+    margin-top: 48px;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 11px 20px;
+    border-radius: 8px;
+    color: white;
+    background: rgb(9, 161, 92);
+    border: none;
+}
+.card-btn-3{
+    margin-top: 48px;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 11px 20px;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    background: rgb(255, 194, 57);
+
+    
 }
