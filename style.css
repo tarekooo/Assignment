@@ -156,3 +156,222 @@ body {
 
     
 }
+
+/* news section styles */
+
+.news-section {
+    display: flex;
+    margin-top: 80px;
+    width: 1280px;
+    flex-direction: column;
+
+  }
+  
+  .news-header-text{
+    width: 1280px;
+    flex-direction: column;
+  }
+  
+  .news-title {
+    color: rgb(14, 14, 14);
+    font-size: 40px;
+    font-weight: 700;
+  }
+  
+  .news-description {
+    margin-top: 24px;
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+    font-weight: 400;
+    line-height: 24px;
+}
+  
+  .news-content {
+    margin-top: 32px;
+    width: 100%;
+   
+}
+  
+.news-card-1{
+    border-radius: 24px;
+    background-color: white;
+    display: flex;
+    width: 1280px;
+    align-items: center;
+    gap: 32px;
+    padding: 48px;
+    margin-bottom: 24px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+  }
+.news-card-2{
+    border-radius: 24px;
+    background-color: white;
+    display: flex;
+    width: 1280px;
+    align-items: center;
+    gap: 32px;
+    padding: 48px;
+    margin-bottom: 24px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+  }
+  
+  .news-image {
+
+    border-radius: 24px;
+    width: 408px;
+    height: 306px;
+  }
+  
+  .news-card-content {
+    justify-content: space-between;
+  }
+  
+  .article-title {
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 32px;
+    font-weight: 700;
+  }
+  
+  .article-date-time {
+    display: flex;
+    margin-top: 12px;
+    gap: 12px;
+    flex-wrap: wrap;
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+  }
+  
+  .article-logo {
+    width: 134px;
+    height: 40px;
+  }
+  
+  .article-text {
+    margin-top: 12px;
+    line-height: 24px;
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+  }
+  
+  .read-more-btn {
+    margin-top: 32px;
+    border-radius: 8px;
+    background-color: rgb(0, 106, 80);
+    padding: 13px 26px;
+    font-size: 18px;
+    color: white;
+    font-weight: 600;
+    border: none;
+  }
+
+/* donation section */
+.donation-container {
+    margin-top: 80px;
+    width: 1280px;
+    height: 464px;
+}
+
+.header-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.donation-title {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 24px;
+    color: rgb(14, 14, 14);
+}
+
+.description-text {
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+    text-align: center;
+    line-height: 24px;
+}
+
+.amount-options {
+    display: flex;
+    flex-direction: row ;
+    gap: 24px;
+    width: 1280px;
+    margin-top: 32px;
+}
+
+.amount-box{
+    background: rgb(255, 255, 255);
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    padding: 40px;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    color:rgba(14, 14, 14, 0.8);
+    width: 160px;
+    height: 48px;
+
+}
+
+
+.custom-amount {
+    font-size: 20px;
+    border: none;
+    border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+    text-align: center;
+    color: white;
+    display: block;
+    background: transparent;
+}
+
+.donate-button {
+
+    padding: 17px 34px;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    background: rgb(0, 106, 80);
+    border: 1px solid rgba(14, 14, 14, 0.1);
+    border-radius: 8px;
+}
+
+.newsletter-container{
+    width: 1280px;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px 100px;
+    border-radius: 24px;
+    background: rgb(198, 228, 214);
+}
+
+.news-letter-title{
+    font-size: 40px;
+    font-weight: 700;
+    color: rgb(14, 14, 14);
+    gap: 16px;
+}
+.newsltter-description{
+    gap: 16px;
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+
+#email{
+    width: 600px;
+    height: 55px;
+    border-radius: 8px 0px 0px 8px;
+    gap: 24px;
+    background: rgb(255, 255, 255);
+}
+.subscribe-btn{
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 0px 8px 8px 0px;
+    padding: 17px 34px 17px 34px;
+    background: rgb(0, 106, 80);
+}
